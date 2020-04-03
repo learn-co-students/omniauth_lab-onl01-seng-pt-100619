@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   # Add your routes here
   get 'home', to: 'welcome#home' 
 
-  get '/widgets', to: 'widgets#index'
+  # get '/widgets', to: 'widgets#index'
 end
